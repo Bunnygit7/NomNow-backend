@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: swiggy-restaurant-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/swiggy_restaurants?
+    username: root
+    password: 0000
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create

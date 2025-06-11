@@ -1,0 +1,19 @@
+POST http://localhost:5016/restaurant/add
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-05-31T160555.400.json
+
+###
+
+GET http://localhost:5016/restaurant/get
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-31T160514.200.json
+
+###
+

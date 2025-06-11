@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-05-31T10:35:55.717+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/restaurant/add"
+}

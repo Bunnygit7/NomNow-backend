@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: swiggy-restaurant-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/swiggy_restaurants?createDatabaseIfNotExist=true
+    username: root
+    password: 0000
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  data:
+    jdbc:
+      dialect: mysql
+server:
+  port: 5051

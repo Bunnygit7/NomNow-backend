@@ -1,0 +1,5 @@
+package com.amvb.entity;
+
+public class RestaurantMenuEntity {
+
+}
