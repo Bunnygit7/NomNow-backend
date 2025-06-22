@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class SwiggyUserServiceApplication {
+public class NomNowUserServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SwiggyUserServiceApplication.class, args);
+		SpringApplication.run(NomNowUserServiceApplication.class, args);
 	}
 
 }

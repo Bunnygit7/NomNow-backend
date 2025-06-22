@@ -3,6 +3,7 @@ package com.amvb.utils;
 import com.amvb.DTOs.OrderDTO;
 import com.amvb.entity.PaymentEntity;
 import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
 
 @Mapper(componentModel = "spring")
 public interface PaymentMapper {
