@@ -1,8 +1,11 @@
 package com.amvb.service;
 
 import com.amvb.DTOs.OrderDTO;
-import com.amvb.entity.PaymentEntity;
+
+import java.util.Map;
 
 public interface PaymentService {
     void processPayment(OrderDTO orderDTO);
+    Map<String, Object> createOrder(Map<String, Object> data);
+    String verifyPayment(Map<String, String> data);
 }

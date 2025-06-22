@@ -6,9 +6,13 @@ spring:
       path: /h2-console
       enabled: true
   datasource:
-    url:
+    url: jdbc:h2:mem:swiggy_orders
     password:
     username: sa
     driver-class-name: org.h2.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
 server:
   port: 5019

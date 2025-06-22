@@ -45,6 +45,6 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-#  properties:
-#    hibernate:
-#      dialect:
+  properties:
+    hibernate:
+      dialect: org.hibernate.dialect.Oracle10gDialect

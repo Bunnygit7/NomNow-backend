@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class RestaurantMenuDto {
 
+    private Integer restaurantMenuId;
     private String menuItem;
     private String description;
     private String menuItemImgUrl;

@@ -51,6 +51,7 @@ public class RestaurantServiceImpl implements RestaurantService{
     @Override
     public List<RestaurantDto> findAllRestaurants(int pageNumber, int pageSize) {
         Page<RestaurantEntity> restaurants=restaurantRepo.findAll(PageRequest.of(pageNumber, pageSize));
+        log.info("RESTAURANTS"+restaurantMapper.entityListToDtoList(restaurants.getContent()));
         return restaurantMapper.entityListToDtoList(restaurants.getContent());
     }
 
