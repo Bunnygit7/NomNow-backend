@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="moduleMapping">
+      <map>
+        <entry key="nomnow-api-gateway" value="swiggy-api-gateway" />
+        <entry key="nomnow-order-service" value="swiggy-order-service" />
+        <entry key="nomnow-payment-service" value="swiggy-payment-service" />
+        <entry key="nomnow-restaurants" value="swiggy-restaurants" />
+        <entry key="nomnow-service-registry" value="swiggy-service-registry" />
+        <entry key="nomnow-user-service" value="swiggy-user-service" />
+      </map>
+    </option>
+  </component>
+</project>

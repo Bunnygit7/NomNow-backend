@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/swiggy-api-gateway/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swiggy-order-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swiggy-order-service/swiggy-order-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swiggy-payment-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swiggy-payment-service/swiggy-payment-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nomnow-api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nomnow-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nomnow-order-service/swiggy-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nomnow-payment-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nomnow-payment-service/swiggy-payment-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nomnow-restaurants/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nomnow-service-registry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nomnow-user-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swiggy-restaurant-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swiggy-restaurants/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swiggy-service-registry/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swiggy-user-service/src/main/java" charset="UTF-8" />
   </component>
 </project>

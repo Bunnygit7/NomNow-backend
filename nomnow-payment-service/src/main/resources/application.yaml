@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: nomnow-payment-service
+  h2:
+    console:
+      path: /h2-console
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:nomnow_payments
+    password:
+    username: sa
+    driver-class-name: org.h2.Driver
+server:
+  port: 5018
+razorpay:
+  key: rzp_test_xmTfxvzVCyaxLL
+  secret: humK9jqEM9qJzf7QHTGu8q2r
