@@ -7,33 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nomnow-api-gateway" />
         <module name="nomnow-service-registry" />
-      </profile>
-      <profile name="Annotation profile for swiggy-restaurants" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
-        </processorPath>
-        <module name="nomnow-payment-service" />
-        <module name="nomnow-restaurants" />
-        <module name="nomnow-order-service" />
-      </profile>
-      <profile name="Annotation profile for swiggy-user-service" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
-        </processorPath>
-        <module name="nomnow-user-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="nomnow-api-gateway" target="17" />
+      <module name="nomnow-order-service" target="17" />
+      <module name="nomnow-payment-service" target="17" />
+      <module name="nomnow-restaurants" target="17" />
+      <module name="nomnow-user-service" target="17" />
       <module name="swiggy-restaurant-service" target="17" />
     </bytecodeTargetLevel>
   </component>

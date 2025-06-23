@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/swiggy-payment-service/pom.xml" />
         <option value="$PROJECT_DIR$/swiggy-order-service/pom.xml" />
         <option value="$PROJECT_DIR$/swiggy-restaurants/pom.xml" />
+        <option value="$PROJECT_DIR$/nomnow-service-registry/pom.xml" />
       </list>
     </option>
   </component>
