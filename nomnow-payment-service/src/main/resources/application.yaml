@@ -13,5 +13,5 @@ spring:
 server:
   port: 5018
 razorpay:
-  key: rzp_test_xmTfxvzVCyaxLL
-  secret: humK9jqEM9qJzf7QHTGu8q2r
+  key: ${RAZORPAY_TEST_KEY}
+  secret: ${RAZORPAY_TEST_SECRET}
