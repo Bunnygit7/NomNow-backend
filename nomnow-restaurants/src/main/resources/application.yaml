@@ -2,7 +2,7 @@ spring:
   application:
     name: nomnow-restaurant
   profiles:
-    active: dev2
+    active: dev
     # THIS activates
 server:
   port: 5016
