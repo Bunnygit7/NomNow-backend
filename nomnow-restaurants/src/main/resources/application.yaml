@@ -6,7 +6,10 @@ spring:
     # THIS activates
 server:
   port: 5016
-
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_SERVER_URL}
 ---
 
 spring:

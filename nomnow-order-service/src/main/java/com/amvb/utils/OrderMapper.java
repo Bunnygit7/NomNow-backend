@@ -8,8 +8,6 @@ import java.util.List;
 
 @Mapper(componentModel = "spring")
 public interface OrderMapper {
-
-
     OrderEntity dtoToEntity(OrderDTO orderDTO);
     List<OrderDTO> entityListToDtoList(List<OrderEntity> orderEntityList);
 }

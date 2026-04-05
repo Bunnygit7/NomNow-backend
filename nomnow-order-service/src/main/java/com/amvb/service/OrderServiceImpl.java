@@ -12,20 +12,16 @@ import java.util.List;
 @RequiredArgsConstructor
 public class OrderServiceImpl implements OrderService {
 
-    private final OrderRepository orderRepository;
     final OrderMapper orderMapper;
+    private final OrderRepository orderRepository;
 
     @Override
     public void createOrder(OrderDTO orderDto) {
-            orderRepository.save(orderMapper.dtoToEntity(orderDto));
-
+        orderRepository.save(orderMapper.dtoToEntity(orderDto));
     }
 
     @Override
     public List<OrderDTO> getOrdersByUserName(String userName) {
-
         return orderMapper.entityListToDtoList(orderRepository.findByUserName(userName).orElse(null));
-
-
     }
 }

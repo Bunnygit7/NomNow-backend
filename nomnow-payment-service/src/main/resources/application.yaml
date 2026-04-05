@@ -15,3 +15,7 @@ server:
 razorpay:
   key: ${RAZORPAY_TEST_KEY}
   secret: ${RAZORPAY_TEST_SECRET}
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_SERVER_URL}

@@ -26,6 +26,7 @@ public class RestaurantServiceImpl implements RestaurantService{
         log.info(restaurantRepo.findById(id).toString());
         log.info(restaurantMapper.entityToDto(restaurantRepo.findById(id).orElse(null)).toString());
         return  restaurantMapper.entityToDto(restaurantRepo.findById(id).orElse(null));
+
     }
 
     //TODO

@@ -16,3 +16,7 @@ spring:
       ddl-auto: update
 server:
   port: 5019
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_SERVER_URL}

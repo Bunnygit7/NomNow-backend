@@ -40,9 +40,6 @@ public class PaymentServiceImpl implements PaymentService {
 
     @Override
     public void processPayment(OrderDTO orderDTO) {
-
-
-
         PaymentEntity payment = paymentMapper.dtoToEntity(orderDTO);
         payment.setPaymentStatus(PaymentStatus.PAYMENT_SUCCESS);
         payment.setTxnDateAndTime(LocalDateTime.now());
@@ -62,7 +59,7 @@ public class PaymentServiceImpl implements PaymentService {
             JSONObject options = new JSONObject();
             options.put("amount", amount);
             options.put("currency", "INR");
-            String receipt = "txn_" + random.nextInt(1000) + 1; // TODO : instead of random get from db and store next number
+            String receipt = "txn_" + random.nextInt(1000) + 1; // TODO : instead of random generate version 1 UUID
             options.put("receipt", receipt); //TODO : save to db
             options.put("payment_capture", 1);
             Order order = razorpayClient.orders.create(options);
